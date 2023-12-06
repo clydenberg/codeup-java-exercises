@@ -13,14 +13,14 @@ public class SyntaxTypesVars {
 //
 //        double divide2 = (bigNumber / myAge); //implicit casting
 
-        int myFavoriteNum = 8;
-        System.out.println(myFavoriteNum);
-
-        String myString = "Remember double quotes for strings";
-        System.out.println(myString);
-
-        float myNumber = 3.14f;
-        System.out.println(myNumber);
+//        int myFavoriteNum = 8;
+//        System.out.println(myFavoriteNum);
+//
+//        String myString = "Remember double quotes for strings";
+//        System.out.println(myString);
+//
+//        float myNumber = 3.14f;
+//        System.out.println(myNumber);
 
 //        int x = 5;
 //        System.out.println(x++);
@@ -54,9 +54,9 @@ public class SyntaxTypesVars {
 //        System.out.println(x);
 //        System.out.println(y);
 
-        int max = Integer.MAX_VALUE;
-        System.out.println(max);
-        max *= max;
-        System.out.println(max);
+//        int max = Integer.MAX_VALUE;
+//        System.out.println(max);
+//        max *= max;
+//        System.out.println(max);
     }
 }
