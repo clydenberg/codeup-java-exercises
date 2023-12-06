@@ -24,7 +24,7 @@ public class ConsoleExercises {
 //        String word1 = sc.next();
 //        String word2 = sc.next();
 //        String word3 = sc.next();
-//        System.out.printf("Your 3 words were: %s, %s, %s", word1, word2, word3);
+//        System.out.printf("Your 3 words were: %s %s %s", word1, word2, word3);
 
 //        System.out.print("Enter a sentence: ");
 //        String sentence = sc.nextLine();
