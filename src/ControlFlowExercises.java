@@ -51,54 +51,63 @@ public class ControlFlowExercises {
 //            }
 //        }
 
-//        System.out.println("Enter a number between 1 and 10: ");
-//        String userInput = sc.nextLine();
-//        int userInt = Integer.parseInt(userInput);
-//        int i = 1;
-//        if(i <= userInt){
-//            System.out.println("Here is your table!");
-//            System.out.println("number | squared | cubed");
-//            System.out.println("------ | ------- | -----");
-//            for(i = 1; i <= userInt; i++) {
-//                System.out.printf("%-7d| %-8d| %-5d%n", i, i * i, i * i * i);
+//        String userContinue = "";
+//        do {
+//            System.out.println("Enter a number between 1 and 10: ");
+//            String userInput = sc.nextLine();
+//            int i = 1;
+//            int userInt = Integer.parseInt(userInput);
+//            if (i <= userInt) {
+//                System.out.println("Here is your table!");
+//                System.out.println("number | squared | cubed");
+//                System.out.println("------ | ------- | -----");
+//                for (i = 1; i <= userInt; i++) {
+//                    System.out.printf("%-7d| %-8d| %-5d\n", i, i * i, i * i * i);
+//                }
 //            }
-//        } else {
-//            System.out.println("Please enter a number between 1 and 10");
-//        }
-
-        System.out.println("Enter your grade: ");
-        String userInput = sc.nextLine();
-        int userInt = Integer.parseInt(userInput);
-        if(userInt >= 95){
-            System.out.println("A+");
-        } else if(userInt >= 92){
-            System.out.println("A");
-        } else if(userInt >= 88){
-            System.out.println("A-");
-        } else if(userInt >= 85){
-            System.out.println("B+");
-        } else if(userInt >= 82){
-            System.out.println("B");
-        } else if(userInt >= 80){
-            System.out.println("B-");
-        } else if(userInt >= 75){
-            System.out.println("C+");
-        } else if(userInt >= 70){
-            System.out.println("C");
-        } else if(userInt >= 67){
-            System.out.println("C-");
-        } else if(userInt >= 65){
-            System.out.println("D+");
-        } else if(userInt >= 62){
-            System.out.println("D");
-        } else if(userInt >= 60){
-            System.out.println("D-");
-        } else if(userInt >= 59){
-            System.out.println("F");
-        } else {
-            System.out.println("You didn't enter a number between 0 and 100");
-        }
+//                System.out.println("Would you like to continue? [y/n]");
+//                userContinue = sc.nextLine();
+//        } while(userContinue.equalsIgnoreCase("y") || userContinue.equalsIgnoreCase("yes"));
 
 
+//        System.out.println("Enter your grade: ");
+//        String userGrade = sc.nextLine();
+//        int userInt = Integer.parseInt(userGrade);
+//        String userContinue = "";
+//        do {
+//            if(userInt > 100 || userInt < 0) {
+//                System.out.println("You didn't enter a number between 0 and 100");
+//            } else if (userInt >= 95) {
+//                System.out.println("A+");
+//            } else if (userInt >= 92) {
+//                System.out.println("A");
+//            } else if (userInt >= 88) {
+//                System.out.println("A-");
+//            } else if (userInt >= 85) {
+//                System.out.println("B+");
+//            } else if (userInt >= 82) {
+//                System.out.println("B");
+//            } else if (userInt >= 80) {
+//                System.out.println("B-");
+//            } else if (userInt >= 75) {
+//                System.out.println("C+");
+//            } else if (userInt >= 70) {
+//                System.out.println("C");
+//            } else if (userInt >= 67) {
+//                System.out.println("C-");
+//            } else if (userInt >= 65) {
+//                System.out.println("D+");
+//            } else if (userInt >= 62) {
+//                System.out.println("D");
+//            } else if (userInt >= 60) {
+//                System.out.println("D-");
+//            } else if (userInt >= 59) {
+//                System.out.println("F");
+//            }
+//            System.out.println("Would you like to continue? [y/n]");
+//            userContinue = sc.nextLine();
+//        } while(userContinue.equalsIgnoreCase("y") || userContinue.equalsIgnoreCase("yes"));
     }
 }
+
+
